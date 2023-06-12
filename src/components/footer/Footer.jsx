@@ -1,13 +1,41 @@
 import React from "react";
+import Image from "next/image";
+import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
-    <div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-        distinctio omnis ducimus laborum ipsam vel!
+    <div className={styles.container}>
+      <div>©2023 FIN studio. All rights reserved.</div>
+      <div className={styles.social}>
+        <Image
+          src="/1.png"
+          width={30}
+          height={15}
+          className={styles.icon}
+          alt="Lama Dev Facebook Account"
+        />
+        <Image
+          src="/2.png"
+          width={30}
+          height={15}
+          className={styles.icon}
+          alt="Lama Dev"
+        />
+        <Image
+          src="/3.png"
+          width={30}
+          height={15}
+          className={styles.icon}
+          alt="Lama Dev"
+        />
+        <Image
+          src="/4.png"
+          width={30}
+          height={15}
+          className={styles.icon}
+          alt="Lama Dev"
+        />
       </div>
-      <div></div>
     </div>
   );
 };
