@@ -3,25 +3,26 @@
 
 .title {
   font-size: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+  font-weight: bolder;
   text-align: center;
 }
 
 .content {
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 50px;
 }
 
 .imgContainer {
   flex: 1;
-  height: 500px;
+  height: 450px;
   position: relative;
 }
 
 .image {
   object-fit: contain;
-  /* animation: move 3s infinite ease alternate; */
+  /*   animation: move 3s infinite ease alternate; */
 }
 
 @keyframes move {
@@ -42,7 +43,7 @@
 
 .input,
 .textArea {
-  padding: 20px;
+  padding: 10px;
   background-color: transparent;
   border: none;
   outline: none;
